@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
 export default function CycleText() {
-  const words = ["Front-End Developer", "Back-End Developer", "Full-Stack Developer", "UI/UX Designer"];
+  const words = ["Front-End Developer", "Back-End Developer", "Full-Stack Developer", "UI/UX Developer"];
   const [index, setIndex] = useState(0);
 
   const total = words.length;
@@ -15,7 +15,7 @@ export default function CycleText() {
 
   return (
     <div className=" text-center lg:text-left ">
-      <span className="font-mono     lg:text-5xl  text-4xl   font-extrabold text-[#EFF0F2]">
+      <span className="font-mono     lg:text-5xl  sm:text-4xl  text-2xl  font-extrabold text-[#EFF0F2]">
         Anthony Bautista <br />
         I'm
         <AnimatePresence mode="wait">

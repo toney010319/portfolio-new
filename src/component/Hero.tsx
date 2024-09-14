@@ -10,7 +10,7 @@ const Hero = () => {
           <div className="w-full lg:w-2/3 pt-10 lg:pt-20">
             <CycleText />
 
-            <p className="text-[#EFF0F2] text-xl text-center lg:text-left max-w-[820px] mt-6">
+            <p className="text-[#EFF0F2] sm:text-xl text-center lg:text-left max-w-[820px] mt-6">
               Greetings, fellow digital explorers! I am Anthony, A passionate and innovative developer dedicated to
               crafting immersive digital experiences. Welcome to my Online abode.
             </p>
