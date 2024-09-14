@@ -1,4 +1,3 @@
-import React from "react";
 import NavTabs from "./animata/container/nav-tabs";
 import WorkButton from "./animata/container/work-button";
 

@@ -1,4 +1,3 @@
-import React from "react";
 import CycleText from "./animata/container/cylce-text";
 import WorkButton from "./animata/container/work-button";
 import photo from "../assets/test1.png";
