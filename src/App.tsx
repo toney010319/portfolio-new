@@ -4,6 +4,7 @@ import Hero from "./component/Hero";
 import Navbar from "./component/Navbar";
 import Project from "./component/Project";
 import Services from "./component/Services";
+ 
 
 import "./index.css";
 
@@ -15,6 +16,7 @@ function App() {
       <Services />
       <AboutMe />
       <Project />
+      
     </>
   );
 }
