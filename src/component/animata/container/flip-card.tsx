@@ -26,7 +26,7 @@ export default function FlipCard({
   return (
     <div className={cn("group h-80 w-72 [perspective:1000px]", className)} {...props}>
       <div
-        className={cn("relative h-full rounded-2xl transition-all duration-500 [transform-style:preserve-3d]", self[0])}
+        className={cn("relative h-full rounded-2xl border-2 border-[rgba(46,178,211,0.45)]    transition-all duration-500 [transform-style:preserve-3d]", self[0])}
       >
         {/* Front */}
         <div className="absolute h-full w-full [backface-visibility:hidden] ">
@@ -37,7 +37,7 @@ export default function FlipCard({
         {/* Back */}
         <div
           className={cn(
-            "absolute h-full w-full rounded-2xl bg-black/80 p-4 text-slate-200 [backface-visibility:hidden]",
+            "absolute h-full w-full rounded-2xl bg-black/80 p-4  text-slate-200 [backface-visibility:hidden]",
             self[1]
           )}
         >

@@ -5,6 +5,7 @@ const Project = () => {
         <h1 className="text-[#EFF0F2] text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
           MY <span className="text-[#2EB2D3]">PROJECT</span>
         </h1>
+        <div></div>
       </div>
     </div>
   );

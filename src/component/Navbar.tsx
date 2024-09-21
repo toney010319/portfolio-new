@@ -24,7 +24,7 @@ const Navbar = () => {
             <NavTabs tabs={["Profile", "Search", "About Us", "Contact Us", "Settings"]} />
           </div>
           <div className="hidden md:block">
-            <WorkButton text="Contact" className="bg-[#2EB2D3] px-5 py-2 text-sm md:text-base" />
+            <WorkButton text="Contact" className="bg-gradient-to-t from-[#087796] to-[#0096ba] px-5 py-2 text-sm md:text-base" />
           </div>
           <div className="md:hidden">
             <button onClick={toggleMenu} className="text-[#EFF0F2] hover:text-[#2EB2D3] focus:outline-none">
@@ -39,7 +39,7 @@ const Navbar = () => {
             <NavTabs tabs={["Profile", "Search", "About Us", "Contact Us", "Settings"]} />
           </div>
           <div className="px-2 py-3">
-            <WorkButton text="Contact" className="bg-[#2EB2D3] px-5 py-2 text-sm w-full" />
+            <WorkButton text="Contact" className="bg-gradient-to-t from-[#087796] to-[#0096ba] px-5 py-2 text-sm w-full" />
           </div>
         </div>
       )}

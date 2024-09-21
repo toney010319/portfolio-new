@@ -5,7 +5,7 @@ const Services = () => {
   return (
     <div className="py-10 bg-[#10131a]">
       <div className="container mx-auto px-4 md:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 overflow-hidden">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 ">
           <div className="flex flex-col justify-center">
             <h1 className="text-[#EFF0F2] text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
               MY <span className="text-[#2EB2D3]">SERVICE</span>
@@ -22,7 +22,7 @@ const Services = () => {
               </p>
             </div>
           </div>
-          <div className="flex flex-col sm:flex-row justify-between items-center gap-4 mt-8 lg:mt-0">
+          <div className=" flex flex-col sm:flex-row justify-between items-center gap-4 mt-8 lg:mt-0">
             <div className="w-full sm:w-1/2 space-y-4">
               <FlipCard
                 description="I am a front-end web developer with expertise in JavaScript, focusing on the ReactJS framework, along with Tailwind CSS and Bootstrap. I also have foundational knowledge of Svelte and jQuery. My passion lies in creating responsive, efficient, and visually engaging web applications that provide outstanding user experiences."
@@ -30,13 +30,15 @@ const Services = () => {
                 rotate="y"
                 subtitle="Frontend Developer"
                 title="Frontend Developer"
+                className="w-full"
               />
               <FlipCard
                 description="I am a full-stack developer with a passion for building beautiful and functional applications."
                 image={frontend}
                 rotate="y"
-                subtitle="Web Designer"
-                title="Web Designer"
+                subtitle="UI/UX Developer"
+                title="UI/UX Developer"
+                className="w-full "
               />
             </div>
             <div className="w-full sm:w-1/2 space-y-4 lg:mt-10">
@@ -46,13 +48,15 @@ const Services = () => {
                 rotate="y"
                 subtitle="Backend Developer"
                 title="Backend Developer"
+                   className="w-full"
               />
               <FlipCard
                 description="I am a full-stack developer with a passion for building beautiful and functional applications."
                 image={frontend}
                 rotate="y"
-                subtitle="Software Engineer"
-                title="Bibek Bhattarai"
+                subtitle="Web Optimization"
+                title="Web Optimization"
+                   className="w-full"
               />
             </div>
           </div>

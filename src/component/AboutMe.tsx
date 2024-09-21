@@ -116,6 +116,7 @@ const AboutMe = () => {
           </div>
           <div className="text-center lg:w-1/2">
             <h2 className="text-[#EFF0F2] text-2xl md:text-3xl lg:text-4xl font-bold mb-6 text-center">Tech Stack</h2>
+            
             <ShiftTabs
               activeTab={activeTab}
               setActiveTab={setActiveTab}

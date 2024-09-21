@@ -42,7 +42,7 @@ const Tab = ({ text, selected, setSelected, isMobile }: TabProps) => {
         <motion.span
           layoutId="tabs"
           transition={{ type: "spring", duration: 0.5 }}
-          className={cn("absolute inset-0 rounded-sm bg-[#2EB2D3]", isMobile ? "h-full w-1 left-0" : "")}
+          className={cn("absolute inset-0 rounded-sm bg-gradient-to-t from-[#087796] to-[#0096ba]", isMobile ? "h-full w-1 left-0" : "")}
         />
       )}
     </button>
