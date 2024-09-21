@@ -19,10 +19,16 @@ const Project = () => {
       link: "https://snapgram-jsm-o7n4.vercel.app/"
     },
     {
-      title: "SNAPGRAM",
-      description: "This is a fullstack Project the technologies i used for this are nextjs, react for frontend and tailwind css for styling and appwrite for database, im also using react query/tanstack query for fetching data from the backend, and tailwind css for styling",
-      image: "/images/snapgram.webp",
-      link: "https://snapgram-jsm-o7n4.vercel.app/"
+      title: "BANK APP",
+      description: "This is a Frontend Project, the technologies i use for this are react for frontend and tailwind css for styling, and im using localstorage to temporarily stored data, and credintials for users,",
+      image: "/images/bankApp.webp",
+      link: "https://bank-app-mu-three.vercel.app/"
+    },
+    {
+      title: "TRADING APP",
+      description: "This is a Group fullstack project in a bootcamp, the technologies we use for this are ruby on rails for backend and react for frontend tailwind css for styling and postgresql for database, if you want to try it just click on the button.",
+      image: "/images/tradingapp.webp",
+      link: "https://g2-trading-app.vercel.app/"
     },
   ];
 
@@ -39,8 +45,8 @@ const Project = () => {
               data-aos="fade-up"
               className={`flex ${index % 2 === 0 ? 'justify-start' : 'justify-end'}`}
             >
-              <div className="w-full lg:w-2/3 xl:w-1/2 shadow-md border-2 border-[rgba(46,178,211,0.45)] rounded-3xl overflow-hidden transition-all duration-300 ease-in-out hover:shadow-[#2EB2D3] hover:bg-[#2eb2d315] hover:cursor-pointer hover:scale-105">
-              {/* <div className="w-full md:w-2/3 lg:w-1/2 hover:shadow-[#2EB2D3] hover:bg-[#2eb2d315] hover:cursor-pointer shadow-md border-2 border-[rgba(46,178,211,0.45)] rounded-3xl overflow-hidden"> */}
+              <div className="w-full lg:w-2/3 xl:w-1/2 shadow-md border-2 border-[rgba(46,178,211,0.45)] rounded-3xl overflow-hidden transition-all duration-300 ease-in-out hover:shadow-[#2EB2D3] hover:bg-[#2eb2d315] hover:cursor-pointer  ">
+             
                 <div className="relative h-56 md:h-64">
                   <img
                     src={project.image}
