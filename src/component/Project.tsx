@@ -13,17 +13,18 @@ const Project = () => {
 
   const projects = [
    {
-      title: "TRADING APP",
-      description: "This is a Group fullstack project in a bootcamp, the technologies we use for this are ruby on rails for backend and react for frontend tailwind css for styling and postgresql for database, if you want to try it just click on the button.",
-      image: "/images/tradingapp.webp",
-      link: "https://g2-trading-app.vercel.app/"
+      title: "Document Management System",
+      description: "A full-stack application with MongoDb ExpressJs NodeJs and ReactJs (MERN) Technology, with a feature of Time tracker, Ticketing Support and HR Support Request, with admin access.",
+      image: "/images/dms.jpg",
+      link: "https://csv-portal-online.vercel.app/sign-in",
+      Technologies: "MongoDB, ExpressJs, ReactJs, NodeJs, Tailwindcss, ShadCN, Typescript, Vite"
     },
     {
       title: "SNAPGRAM",
       description: "Snapgram is a full-stack social media clone where users can create an account, log in, create posts, share them publicly, comment, and like other posts. The project features a serverless backend powered by Appwrite, providing a streamlined and scalable architecture.",
       image: "/images/snapgram.webp",
       link: "https://snapgram-jsm-o7n4.vercel.app/",
-      Technologies: "Nextjs, Tailwindcss, TanstackQuery, Typescript, Appwrite"
+      Technologies: "Nextjs, Tailwindcss, TanstackQuery, Typescript, Appwrite, Vite"
     },
     {
       title: "E-Commerce Website",
