@@ -4,7 +4,7 @@ import photo from "../assets/test1.png";
 
 const Hero = () => {
   return (
-    <div className="pt-10 bg-gradient-to-r from-[#10131a] to-[#0f212c]">
+    <div id="profile" className="pt-10 bg-gradient-to-r from-[#10131a] to-[#0f212c]">
       <div className="container mx-auto px-4 lg:px-0">
         <div className="flex flex-col lg:flex-row items-center lg:items-start gap-8">
           <div className="w-full lg:w-2/3 pt-10 lg:pt-20">

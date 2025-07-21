@@ -77,7 +77,7 @@ const AboutMe = () => {
   };
 
   return (
-    <div className="py-10 bg-gradient-to-r from-[#10131a] to-[#0f212c]">
+    <div id="about" className="py-10 bg-gradient-to-r from-[#10131a] to-[#0f212c]">
       <div className="container mx-auto px-4">
         <h1 className="text-[#EFF0F2] text-3xl md:text-4xl lg:text-5xl font-bold mb-8 text-center">
           More <span className="text-[#2EB2D3]">About</span> Me
