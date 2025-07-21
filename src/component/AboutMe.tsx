@@ -94,9 +94,9 @@ const AboutMe = () => {
                 Software Engineer
               </p>
               <p className="text-base md:text-lg lg:text-xl pt-3 leading-relaxed tracking-wide">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni odio cupiditate ut deleniti aperiam et
-                quibusdam quidem totam. Mollitia, ullam minima quis quaerat eos recusandae veniam in odit aperiam
-                libero.
+                Full-Stack Web Development Bootcamp
+                <br />
+                 a coding bootcamp focused on front-end and back-end technologies, including HTML, CSS, JavaScript, ReactJS, Ruby, and Ruby on Rails. Gained hands-on experience by building real-world web applications and collaborative projects.
               </p>
             </div>
             <div>
@@ -108,9 +108,7 @@ const AboutMe = () => {
                 Bachelor of Science in Industrial Technology
               </p>
               <p className="text-base md:text-lg lg:text-xl pt-3 leading-relaxed tracking-wide">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni odio cupiditate ut deleniti aperiam et
-                quibusdam quidem totam. Mollitia, ullam minima quis quaerat eos recusandae veniam in odit aperiam
-                libero.
+               Studied the fundamentals of software engineering, including basic programming concepts and logic development. Gained introductory knowledge in programming languages and their application in technology and industry.
               </p>
             </div>
           </div>
