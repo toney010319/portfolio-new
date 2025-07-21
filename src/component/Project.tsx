@@ -19,19 +19,20 @@ const Project = () => {
       link: "https://csv-portal-online.vercel.app/sign-in",
       Technologies: "MongoDB, ExpressJs, ReactJs, NodeJs, Tailwindcss, ShadCN, Typescript, Vite"
     },
-    {
-      title: "SNAPGRAM",
-      description: "Snapgram is a full-stack social media clone where users can create an account, log in, create posts, share them publicly, comment, and like other posts. The project features a serverless backend powered by Appwrite, providing a streamlined and scalable architecture.",
-      image: "/images/snapgram.webp",
-      link: "https://snapgram-jsm-o7n4.vercel.app/",
-      Technologies: "Nextjs, Tailwindcss, TanstackQuery, Typescript, Appwrite, Vite"
-    },
+   
     {
       title: "E-Commerce Website",
       description: "My main responsibility was converting Figma prototypes into fully functional, responsive code using a mobile-first approach, ensuring compatibility across all devices. The website allows users to add items to their cart, place multiple orders with subscription options, and complete payments via PayPal and debit cards.",
       image: "/images/ecommerce.jpg",
       link: "shop.esaverwatt.com",
       Technologies: "HTML, Bootstrap, CSS, jQuery, .NET"
+    },
+     {
+      title: "SNAPGRAM",
+      description: "Snapgram is a full-stack social media clone where users can create an account, log in, create posts, share them publicly, comment, and like other posts. The project features a serverless backend powered by Appwrite, providing a streamlined and scalable architecture.",
+      image: "/images/snapgram.webp",
+      link: "https://snapgram-jsm-o7n4.vercel.app/",
+      Technologies: "Nextjs, Tailwindcss, TanstackQuery, Typescript, Appwrite, Vite"
     },
    
   ];
