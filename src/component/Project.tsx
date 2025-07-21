@@ -12,24 +12,27 @@ const Project = () => {
   }, []);
 
   const projects = [
-    {
-      title: "SNAPGRAM",
-      description: "This is a fullstack Project the technologies i used for this are nextjs, react for frontend and tailwind css for styling and appwrite for database, im also using react query/tanstack query for fetching data from the backend, and tailwind css for styling",
-      image: "/images/snapgram.webp",
-      link: "https://snapgram-jsm-o7n4.vercel.app/"
-    },
-    {
-      title: "BANK APP",
-      description: "This is a Frontend Project, the technologies i use for this are react for frontend and tailwind css for styling, and im using localstorage to temporarily stored data, and credintials for users,",
-      image: "/images/bankApp.webp",
-      link: "https://bank-app-mu-three.vercel.app/"
-    },
-    {
+   {
       title: "TRADING APP",
       description: "This is a Group fullstack project in a bootcamp, the technologies we use for this are ruby on rails for backend and react for frontend tailwind css for styling and postgresql for database, if you want to try it just click on the button.",
       image: "/images/tradingapp.webp",
       link: "https://g2-trading-app.vercel.app/"
     },
+    {
+      title: "SNAPGRAM",
+      description: "Snapgram is a full-stack social media clone where users can create an account, log in, create posts, share them publicly, comment, and like other posts. The project features a serverless backend powered by Appwrite, providing a streamlined and scalable architecture.",
+      image: "/images/snapgram.webp",
+      link: "https://snapgram-jsm-o7n4.vercel.app/",
+      Technologies: "Nextjs, Tailwindcss, TanstackQuery, Typescript, Appwrite"
+    },
+    {
+      title: "E-Commerce Website",
+      description: "My main responsibility was converting Figma prototypes into fully functional, responsive code using a mobile-first approach, ensuring compatibility across all devices. The website allows users to add items to their cart, place multiple orders with subscription options, and complete payments via PayPal and debit cards.",
+      image: "/images/ecommerce.jpg",
+      link: "shop.esaverwatt.com",
+      Technologies: "HTML, Bootstrap, jQuery, .NET"
+    },
+   
   ];
 
   return (
@@ -61,6 +64,11 @@ const Project = () => {
                   <p className="text-[#EFF0F2] text-sm md:text-base text-left">
                     {project.description}
                   </p>
+                  <div>
+                    <p className="text-[#EFF0F2] text-sm md:text-base text-left">
+                        Technologies: {project.Technologies}
+                      </p>
+                  </div>
                   <WorkButton
                     text="View Project"
                     className="bg-[#2EB2D3] px-5 py-2 text-lg self-start"
