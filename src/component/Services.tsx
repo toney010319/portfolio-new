@@ -25,7 +25,7 @@ const Services = () => {
           <div className=" flex flex-col sm:flex-row justify-between items-center gap-4 mt-8 lg:mt-0">
             <div className="w-full sm:w-1/2 space-y-4">
               <FlipCard
-                description="I am a front-end web developer with expertise in JavaScript, focusing on the ReactJS framework, along with Tailwind CSS and Bootstrap. I also have foundational knowledge of Svelte and jQuery. My passion lies in creating responsive, efficient, and visually engaging web applications that provide outstanding user experiences."
+                description=" I specialize in building fast, mobile-responsive websites with a focus on cross-browser compatibility and performance optimization. With a strong foundation in UX design, I create user-centered interfaces that deliver both functionality and an intuitive user experience."
                 image={frontend}
                 rotate="y"
                 subtitle="Frontend Developer"
