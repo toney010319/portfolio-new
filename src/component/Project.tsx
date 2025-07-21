@@ -24,7 +24,7 @@ const Project = () => {
       title: "E-Commerce Website",
       description: "My main responsibility was converting Figma prototypes into fully functional, responsive code using a mobile-first approach, ensuring compatibility across all devices. The website allows users to add items to their cart, place multiple orders with subscription options, and complete payments via PayPal and debit cards.",
       image: "/images/ecommerce.jpg",
-      link: "shop.esaverwatt.com",
+      link: "https://shop.esaverwatt.com",
       Technologies: "HTML, Bootstrap, CSS, jQuery, .NET"
     },
      {

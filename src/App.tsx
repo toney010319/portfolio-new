@@ -13,6 +13,7 @@ import "./index.css";
 function App() {
   return (
     <>
+      
       <Navbar />
       <Hero />
       <Services />
@@ -20,7 +21,7 @@ function App() {
         <Experience />
       <Project />
       <ContactUs/>
-      
+     
     </>
   );
 }

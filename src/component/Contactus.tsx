@@ -24,7 +24,7 @@ console.log(reset)
   }
   
   return (
-    <div className="bg-gradient-to-r from-[#10131a] to-[#0f212c] min-h-screen flex items-center justify-center p-4">
+    <div id="contact" className="bg-gradient-to-r from-[#10131a] to-[#0f212c] min-h-screen flex items-center justify-center p-4">
       <div className="max-w-4xl w-full bg-gradient-to-r from-[#10131a] to-[#0f212c] rounded-lg shadow-lg overflow-hidden">
         <div className="flex flex-col md:flex-row">
           {/* Contact Information */}

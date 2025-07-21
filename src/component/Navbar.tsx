@@ -20,7 +20,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="bg-[#10131A]">
+    <nav className="bg-[#10131A] fixed top-0 left-0 right-0 z-50">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
@@ -36,6 +36,12 @@ const Navbar = () => {
             <WorkButton
               text="Contact"
               className="bg-gradient-to-t from-[#087796] to-[#0096ba] px-5 py-2 text-sm md:text-base"
+              onClick={() => {
+                const element = document.getElementById("contact");
+                if (element) {
+                  element.scrollIntoView({ behavior: "smooth" });
+                }
+              }}
             />
           </div>
           <div className="md:hidden">
@@ -57,6 +63,12 @@ const Navbar = () => {
             <WorkButton
               text="Contact"
               className="bg-gradient-to-t from-[#087796] to-[#0096ba] px-5 py-2 text-sm w-full"
+               onClick={() => {
+                const element = document.getElementById("contact");
+                if (element) {
+                  element.scrollIntoView({ behavior: "smooth" });
+                }
+              }}
             />
           </div>
         </div>

@@ -7,12 +7,12 @@ interface TabProps {
   text: string;
   selected: boolean;
   setSelected: React.Dispatch<React.SetStateAction<string>>;
-  sectionId: string; // Add sectionId to map tab to section
+  sectionId: string;  
   isMobile: boolean;
 }
 
 interface NavTabsProps {
-  tabs: { label: string; sectionId: string }[]; // Update tabs to include sectionId
+  tabs: { label: string; sectionId: string }[];  
   isMobile?: boolean;
 }
 
