@@ -33,7 +33,7 @@ const Services = () => {
                 className="w-full"
               />
               <FlipCard
-                description="I am a full-stack developer with a passion for building beautiful and functional applications."
+                description=" I bring user-focused designs to life through clean, responsive, and interactive front-end code. With a strong background in building e-commerce and system-based websites, I work primarily with ReactJS and Tailwind CSS, to create seamless user experiences across all devices. My goal is to blend design and functionality to build intuitive and engaging web interfaces."
                 image={frontend}
                 rotate="y"
                 subtitle="UI/UX Developer"
@@ -51,7 +51,7 @@ const Services = () => {
                    className="w-full"
               />
               <FlipCard
-                description="I am a full-stack developer with a passion for building beautiful and functional applications."
+                description="I optimize websites using GTmetrix, PageSpeed Insights, and Lighthouse by converting images to WebP, lazy loading content, applying CDN caching, and minimizing assets. These improvements boost load speed, SEO, and overall user experience."
                 image={frontend}
                 rotate="y"
                 subtitle="Web Optimization"
