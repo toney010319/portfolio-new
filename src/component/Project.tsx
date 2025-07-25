@@ -4,7 +4,7 @@ import WorkButton from "./animata/container/work-button";
 const Project = () => {
   const projects = [
     {
-      title: "Document Management System",
+      title: "Employee Portal",
       description:
         "A full-stack application with MongoDb ExpressJs NodeJs and ReactJs (MERN) Technology, with a feature of Time tracker, Ticketing Support and HR Support Request, with admin access.",
       image: "/images/dms.jpg",
