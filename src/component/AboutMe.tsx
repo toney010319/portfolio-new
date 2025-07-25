@@ -59,19 +59,20 @@ const backEnd = [
 const toolsAndLibraries = ["Vite", "VScode", "Claude-AI", "Chat-GPT"];
 
 const AboutMe = () => {
-  const [activeTab, setActiveTab] = useState<number | null>(0);
+  const [activeTab, setActiveTab] = useState<number | null>(0); 
+ 
 
   const renderTechStack = () => {
     switch (activeTab) {
-      case 0:
+      case 0: 
         return techstack;
-      case 1:
+      case 1: 
         return frontEnd;
-      case 2:
+      case 2: 
         return backEnd;
-      case 3:
+      case 3: 
         return toolsAndLibraries;
-      default:
+      default: 
         return techstack;
     }
   };
@@ -125,9 +126,9 @@ const AboutMe = () => {
               {renderTechStack().map((item, index) => (
                 <p
                   key={index}
-                  className="shadow-md hover:shadow-[#2EB2D3] p-2 hover:cursor-pointer bg-[#2eb2d344] text-[#EFF0F2] font-bold border-[#2EB2D3] border-2 rounded-md flex flex-row items-center gap-2 text-sm md:text-base"
+                  className={`  transition duration-300 ease-in-out shadow-md hover:shadow-[#2EB2D3] p-2 hover:cursor-pointer bg-[#2eb2d344] text-[#EFF0F2] font-bold border-[#2EB2D3] border-2 rounded-md flex flex-row items-center gap-2 text-sm md:text-base`}
                 >
-                  <img src={`/images/${item}.svg`} width={20} height={20} alt={`${item} LOGO`} />
+                  <img src={`/images/${item}.svg`} width={20} height={20} alt={`${item} LOGO`}   />
                   {item}
                 </p>
               ))}
