@@ -80,7 +80,7 @@ export default function ImageCarousel({ items: initialItems }: IImageCarouselPro
 
       {zoomedImage && (
         <div
-          className={`fixed inset-0 z-50 flex items-center justify-center bg-black/90 p-4 transition-opacity duration-300 ease-in-out ${
+          className={`fixed inset-0 z-50 flex items-center justify-center bg-black/90 p-4 transition-opacity duration-300 ease-in-out overflow-scroll ${
             isZooming ? "opacity-100" : "opacity-0"
           }`}
           onClick={closeZoom}
