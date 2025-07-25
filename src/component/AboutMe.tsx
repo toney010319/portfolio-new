@@ -87,12 +87,12 @@ const AboutMe = () => {
 
   return (
     <div id="about" className="py-10 bg-gradient-to-r from-[#10131a] to-[#0f212c]">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 ">
         <h1 className="text-[#EFF0F2] text-3xl md:text-4xl lg:text-5xl font-bold mb-8 text-center">
           More <span className="text-[#2EB2D3]">About</span> Me
         </h1>
         <div className="flex flex-col lg:flex-row gap-10">
-          <div className="text-[#EFF0F2] lg:w-1/2">
+          <div data-aos="fade-up" data-aos-delay="150" className="text-[#EFF0F2] lg:w-1/2">
             <h2 className="text-[#EFF0F2] text-2xl md:text-3xl lg:text-4xl font-bold mb-6 text-center">My Education</h2>
             <div className="mb-8">
               <p className="text-base md:text-lg lg:text-xl pt-3 leading-relaxed tracking-wide">2023 - 2024</p>
@@ -124,7 +124,7 @@ const AboutMe = () => {
               </p>
             </div>
           </div>
-          <div className="text-center lg:w-1/2">
+          <div data-aos="fade-up" data-aos-delay="400" className="text-center lg:w-1/2">
             <h2 className="text-[#EFF0F2] text-2xl md:text-3xl lg:text-4xl font-bold mb-6 text-center">Tech Stack</h2>
 
             <ShiftTabs

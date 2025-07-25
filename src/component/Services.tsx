@@ -6,7 +6,7 @@ const Services = () => {
     <div id="services" className="py-10 bg-[#10131a]">
       <div className="container mx-auto px-4 md:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 ">
-          <div className="flex flex-col justify-center">
+          <div data-aos="fade-up" data-aos-delay="150" className="flex flex-col justify-center">
             <h1 className="text-[#EFF0F2] text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
               MY <span className="text-[#2EB2D3]">SERVICE</span>
             </h1>
@@ -22,7 +22,11 @@ const Services = () => {
               </p>
             </div>
           </div>
-          <div className=" flex flex-col sm:flex-row justify-between items-center gap-4 mt-8 lg:mt-0">
+          <div
+            data-aos="fade-up"
+            data-aos-delay="400"
+            className=" flex flex-col sm:flex-row justify-between items-center gap-4 mt-8 lg:mt-0"
+          >
             <div className="w-full sm:w-1/2 space-y-4">
               <FlipCard
                 description=" I specialize in building fast, mobile-responsive websites with a focus on cross-browser compatibility and performance optimization. With a strong foundation in UX design, I create user-centered interfaces that deliver both functionality and an intuitive user experience."
@@ -48,7 +52,7 @@ const Services = () => {
                 rotate="y"
                 subtitle="Backend Developer"
                 title="Backend Developer"
-                   className="w-full"
+                className="w-full"
               />
               <FlipCard
                 description="I optimize websites using GTmetrix, PageSpeed Insights, and Lighthouse by converting images to WebP, lazy loading content, applying CDN caching, and minimizing assets. These improvements boost load speed, SEO, and overall user experience."
@@ -56,7 +60,7 @@ const Services = () => {
                 rotate="y"
                 subtitle="Web Optimization"
                 title="Web Optimization"
-                   className="w-full"
+                className="w-full"
               />
             </div>
           </div>

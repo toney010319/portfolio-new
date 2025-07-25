@@ -1,16 +1,7 @@
-import { useEffect } from "react";
-import AOS from "aos";
 import "aos/dist/aos.css";
 import WorkButton from "./animata/container/work-button";
 
 const Project = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,
-      once: false,
-    });
-  }, []);
-
   const projects = [
     {
       title: "Document Management System",
