@@ -44,8 +44,11 @@ const Tab = ({ text, selected, setSelected, sectionId, isMobile }: TabProps) => 
   const handleClick = () => {
     setSelected(text);
     const element = document.getElementById(sectionId);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
+    if (element) { 
+        window.scrollTo({
+            top: element.offsetTop - 30,  
+            behavior: "smooth"
+        });
     }
   };
 
