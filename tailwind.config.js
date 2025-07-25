@@ -6,12 +6,29 @@ export default {
   	extend: {
   		transitionTimingFunction: {
   			slow: 'cubic-bezier(.405, 0, .025, 1)',
-  			'minor-spring': 'cubic-bezier(0.18,0.89,0.82,1.04)'
+				'minor-spring': 'cubic-bezier(0.18,0.89,0.82,1.04)',
+				
   		},
   		boxShadow: {
   			'custom-shadow': '1.5px 3px 24.5px 3px #33f0ff'
   		},
-  		keyframes: {
+		  keyframes: {
+				fadeIn: {
+							from: { opacity: "0" },
+							to: { opacity: "1" },
+			  },
+			   "reveal-up": {
+							"0%": { opacity: "0", transform: "translateY(80%)" },
+							"100%": { opacity: "1", transform: "translateY(0)" },
+							},
+        "reveal-down": {
+						"0%": { opacity: "0", transform: "translateY(-80%)" },
+						"100%": { opacity: "1", transform: "translateY(0)" },
+						},
+          "content-blur": {
+							"0%": { filter: "blur(0.3rem)" },
+							"100%": { filter: "blur(0)" },
+							},
   			meteor: {
   				'0%': {
   					transform: 'translateY(-20%) translateX(-50%)'
@@ -31,7 +48,8 @@ export default {
   		},
   		animation: {
   			meteor: 'meteor var(--duration) var(--delay) ease-in-out infinite',
-  			'trail': 'trail var(--duration) linear infinite'
+				'trail': 'trail var(--duration) linear infinite',
+				fadeIn: "fadeIn 0.5s ease-in",
   		},
   		borderRadius: {
   			lg: 'var(--radius)',
