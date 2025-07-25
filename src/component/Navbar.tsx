@@ -39,7 +39,10 @@ const Navbar = () => {
               onClick={() => {
                 const element = document.getElementById("contact");
                 if (element) {
-                  element.scrollIntoView({ behavior: "smooth" });
+                  window.scrollTo({
+            top: element.offsetTop - 30,  
+            behavior: "smooth"
+        });
                 }
               }}
             />
@@ -66,7 +69,10 @@ const Navbar = () => {
                onClick={() => {
                 const element = document.getElementById("contact");
                 if (element) {
-                  element.scrollIntoView({ behavior: "smooth" });
+                 window.scrollTo({
+                  top: element.offsetTop - 30,  
+                  behavior: "smooth"
+                });
                 }
               }}
             />
