@@ -28,11 +28,16 @@ const techstack = [
   "Claude-AI",
   "Chat-GPT",
   "TanstackQuery",
+  "Git",
+  "RestApi",
+  "MaterialUI",
+  "SCSS",
 ];
 
 const frontEnd = [
   "HTML",
   "CSS",
+  "SCSS",
   "Tailwind",
   "Bootstrap",
   "Javascript",
@@ -42,23 +47,25 @@ const frontEnd = [
   "Svelte",
   "Jquery",
   "Shadcn",
+  "MaterialUI",
   "Figma",
   "TanstackQuery",
 ];
 
 const backEnd = [
-  "ExpressJs",
   "NodeJs",
+  "ExpressJs",
   "MongoDB",
   "SQLite",
+  "PostgreSQL",
   "Ruby",
   "Ruby-on-Rails",
-  "PostgreSQL",
+  "RestApi",
   "Appwrite",
   "Supabase",
 ];
 
-const toolsAndLibraries = ["Vite", "VScode", "Claude-AI", "Chat-GPT"];
+const toolsAndLibraries = ["Vite", "VScode", "Claude-AI", "Chat-GPT", "Git"];
 
 const AboutMe = () => {
   const [activeTab, setActiveTab] = useState<number | null>(0);

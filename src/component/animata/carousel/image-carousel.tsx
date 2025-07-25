@@ -31,7 +31,7 @@ export default function ImageCarousel({ items: initialItems }: IImageCarouselPro
 
   const closeZoom = () => {
     setIsZooming(false);
-    setTimeout(() => setZoomedImage(null), 300);  
+    setTimeout(() => setZoomedImage(null), 300);
   };
 
   const visibleIndices = [
@@ -44,7 +44,6 @@ export default function ImageCarousel({ items: initialItems }: IImageCarouselPro
 
   return (
     <div className="carousel-container relative h-[500px] w-auto overflow-hidden rounded-2xl bg-inherit p-2">
-       
       <div
         onClick={handlePrev}
         className="navigation-item-left absolute left-0 top-[50%] z-20 flex h-10 w-10 translate-y-[-50%] cursor-pointer items-center justify-center rounded-lg hover:bg-gray-200 hover:bg-opacity-20 bg-clip-padding backdrop-blur-sm backdrop-filter transition-all duration-300 ease-in-out"
@@ -58,7 +57,6 @@ export default function ImageCarousel({ items: initialItems }: IImageCarouselPro
         <ChevronRight className="text-[#2EB2D3]" />
       </div>
 
-       
       {visibleItems.map((item, index) => (
         <div
           key={item.id}
@@ -69,10 +67,10 @@ export default function ImageCarousel({ items: initialItems }: IImageCarouselPro
             backgroundPosition: "center",
             transform:
               index === 1
-                ? "translateX(-50%) scale(1.1)"
+                ? "translateX(-50%) scale(1.2) "
                 : index === 0
-                  ? "translateX(-150%) rotate(-20deg)"
-                  : "translateX(50%) rotate(20deg)",
+                ? "translateX(-150%) rotate(-20deg)"
+                : "translateX(50%) rotate(20deg)",
             filter: index === 1 ? "none" : "blur(4px)",
             zIndex: index === 1 ? 30 : 10,
           }}
@@ -80,21 +78,20 @@ export default function ImageCarousel({ items: initialItems }: IImageCarouselPro
         ></div>
       ))}
 
-      
       {zoomedImage && (
-        <div 
-          className={`fixed inset-0 z-50 flex items-center justify-center bg-black/90 p-4 transition-opacity duration-300 ease-in-out ${isZooming ? 'opacity-100' : 'opacity-0'}`}
+        <div
+          className={`fixed inset-0 z-50 flex items-center justify-center bg-black/90 p-4 transition-opacity duration-300 ease-in-out ${
+            isZooming ? "opacity-100" : "opacity-0"
+          }`}
           onClick={closeZoom}
         >
-          <div 
-            className={`relative max-h-[90vh] max-w-[90vw] transition-transform duration-300 ease-in-out ${isZooming ? 'scale-100' : 'scale-90'}`}
+          <div
+            className={`relative max-h-[90vh] max-w-[90vw] transition-transform duration-300 ease-in-out ${
+              isZooming ? "scale-100" : "scale-90"
+            }`}
             onClick={(e) => e.stopPropagation()}
           >
-            <img 
-              src={zoomedImage} 
-              alt="Zoomed certificate" 
-              className="max-h-full max-w-full object-contain"
-            />
+            <img src={zoomedImage} alt="Zoomed certificate" className="max-h-full max-w-full object-contain" />
             <button
               onClick={closeZoom}
               className="absolute -top-12 right-0 text-white hover:text-gray-300 focus:outline-none transition-colors duration-200 ease-in-out"

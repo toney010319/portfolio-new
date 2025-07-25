@@ -5,7 +5,7 @@ import photo from "../assets/test1.png";
 const Hero = () => {
   return (
     <div id="profile" className="pt-10 bg-gradient-to-r from-[#10131a] to-[#0f212c]">
-      <div className="container mx-auto px-4 lg:px-0">
+      <div className="container mx-auto px-4 pt-28 lg:px-0">
         <div className="flex flex-col lg:flex-row items-center lg:items-start gap-8">
           <div className="w-full lg:w-2/3 pt-10 lg:pt-20">
             <CycleText />
@@ -15,12 +15,21 @@ const Hero = () => {
               crafting immersive digital experiences. Welcome to my Online abode.
             </p>
 
-            <div className="mt-10 flex justify-center lg:justify-start mb-10">
-              <WorkButton text="Hire Me" className="bg-[#2EB2D3] px-7 py-2 text-xl" />
+            <div className="mt-10  gap-5 flex justify-center lg:justify-start mb-10">
+              <WorkButton
+                text="Download CV"
+                className="bg-[#2EB2D3] px-7 py-2 text-xl  "
+                href="/images/resume.pdf"
+                download={true}
+              />
             </div>
           </div>
-          <div className="w-full lg:w-1/3 mt-8 lg:mt-0 hidden lg:block">
-            <img src={photo} alt="photo" className="rounded-md w-full h-auto max-w-[300px] md:max-w-[600px] mx-auto " />
+          <div className="w-full lg:w-1/3 mt-8 lg:mt-0 hidden lg:block  ">
+            <img
+              src={photo}
+              alt="photo"
+              className="rounded-md w-full h-auto max-w-[300px] md:max-w-[600px] mx-auto   "
+            />
           </div>
         </div>
       </div>
