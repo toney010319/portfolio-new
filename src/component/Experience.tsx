@@ -1,4 +1,8 @@
  
+import ImageCarousel from "./animata/carousel/image-carousel";
+ 
+
+ 
 
 const Experience = () => {
    
@@ -28,8 +32,26 @@ const Experience = () => {
           </div>
           <div className="text-center lg:w-1/2">
             <h2 className="text-[#EFF0F2] text-2xl md:text-3xl lg:text-4xl font-bold mb-6 text-center">Certificates</h2>
-            
-             
+            <ImageCarousel
+              items={[
+                {
+                  id: 1,
+                  image: "/images/bootstrap.jpg",
+                  title: "",
+                },
+                {
+                  id: 2, 
+                   image: "/images/avion-certificate.jpg",
+                   title: "",
+                },
+                {
+                  id: 3,
+                  image: "/images/jquery.jpg",
+                   title: "",
+                },
+              ]}
+            />
+           {/* <Expandable className="w-full min-w-72 storybook-fix"  autoPlay={true} /> */}
           </div>
         </div>
       </div>
