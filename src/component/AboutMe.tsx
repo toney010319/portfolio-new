@@ -27,6 +27,7 @@ const techstack = [
   "Shadcn",
   "Claude-AI",
   "Chat-GPT",
+  "TanstackQuery",
 ];
 
 const frontEnd = [
@@ -42,6 +43,7 @@ const frontEnd = [
   "Jquery",
   "Shadcn",
   "Figma",
+  "TanstackQuery",
 ];
 
 const backEnd = [
@@ -59,20 +61,19 @@ const backEnd = [
 const toolsAndLibraries = ["Vite", "VScode", "Claude-AI", "Chat-GPT"];
 
 const AboutMe = () => {
-  const [activeTab, setActiveTab] = useState<number | null>(0); 
- 
+  const [activeTab, setActiveTab] = useState<number | null>(0);
 
   const renderTechStack = () => {
     switch (activeTab) {
-      case 0: 
+      case 0:
         return techstack;
-      case 1: 
+      case 1:
         return frontEnd;
-      case 2: 
+      case 2:
         return backEnd;
-      case 3: 
+      case 3:
         return toolsAndLibraries;
-      default: 
+      default:
         return techstack;
     }
   };
@@ -96,8 +97,9 @@ const AboutMe = () => {
               </p>
               <p className="text-base md:text-lg lg:text-xl pt-3 leading-relaxed tracking-wide">
                 Full-Stack Web Development Bootcamp
-                <br />
-                 a coding bootcamp focused on front-end and back-end technologies, including HTML, CSS, JavaScript, ReactJS, Ruby, and Ruby on Rails. Gained hands-on experience by building real-world web applications and collaborative projects.
+                <br />a coding bootcamp focused on front-end and back-end technologies, including HTML, CSS, JavaScript,
+                ReactJS, Ruby, and Ruby on Rails. Gained hands-on experience by building real-world web applications and
+                collaborative projects.
               </p>
             </div>
             <div>
@@ -109,13 +111,15 @@ const AboutMe = () => {
                 Bachelor of Science in Industrial Technology
               </p>
               <p className="text-base md:text-lg lg:text-xl pt-3 leading-relaxed tracking-wide">
-               Studied the fundamentals of software engineering, including basic programming concepts and logic development. Gained introductory knowledge in programming languages and their application in technology and industry.
+                Studied the fundamentals of software engineering, including basic programming concepts and logic
+                development. Gained introductory knowledge in programming languages and their application in technology
+                and industry.
               </p>
             </div>
           </div>
           <div className="text-center lg:w-1/2">
             <h2 className="text-[#EFF0F2] text-2xl md:text-3xl lg:text-4xl font-bold mb-6 text-center">Tech Stack</h2>
-            
+
             <ShiftTabs
               activeTab={activeTab}
               setActiveTab={setActiveTab}
@@ -128,7 +132,7 @@ const AboutMe = () => {
                   key={index}
                   className={`  transition duration-300 ease-in-out shadow-md hover:shadow-[#2EB2D3] p-2 hover:cursor-pointer bg-[#2eb2d344] text-[#EFF0F2] font-bold border-[#2EB2D3] border-2 rounded-md flex flex-row items-center gap-2 text-sm md:text-base`}
                 >
-                  <img src={`/images/${item}.svg`} width={20} height={20} alt={`${item} LOGO`}   />
+                  <img src={`/images/${item}.svg`} width={20} height={20} alt={`${item} LOGO`} />
                   {item}
                 </p>
               ))}
