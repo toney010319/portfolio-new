@@ -1,6 +1,6 @@
 import { useEffect } from "react";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
 import WorkButton from "./animata/container/work-button";
 
 const Project = () => {
@@ -12,29 +12,31 @@ const Project = () => {
   }, []);
 
   const projects = [
-   {
+    {
       title: "Document Management System",
-      description: "A full-stack application with MongoDb ExpressJs NodeJs and ReactJs (MERN) Technology, with a feature of Time tracker, Ticketing Support and HR Support Request, with admin access.",
+      description:
+        "A full-stack application with MongoDb ExpressJs NodeJs and ReactJs (MERN) Technology, with a feature of Time tracker, Ticketing Support and HR Support Request, with admin access.",
       image: "/images/dms.jpg",
       link: "https://csv-portal-online.vercel.app/sign-in",
-      Technologies: "MongoDB, ExpressJs, ReactJs, NodeJs, Tailwindcss, ShadCN, Typescript, Vite"
+      Technologies: "MongoDB, ExpressJs, ReactJs, NodeJs, Tailwindcss, ShadCN, Typescript, Vite",
     },
-   
+
     {
       title: "E-Commerce Website",
-      description: "My main responsibility was converting Figma prototypes into fully functional, responsive code using a mobile-first approach, ensuring compatibility across all devices. The website allows users to add items to their cart, place multiple orders with subscription options, and complete payments via PayPal and debit cards.",
+      description:
+        "My main responsibility was converting Figma prototypes into fully functional, responsive code using a mobile-first approach, ensuring compatibility across all devices. The website allows users to add items to their cart, place multiple orders with subscription options, and complete payments via PayPal and debit cards.",
       image: "/images/ecommerce.jpg",
       link: "https://shop.esaverwatt.com",
-      Technologies: "HTML, Bootstrap, CSS, jQuery, .NET"
+      Technologies: "HTML, Bootstrap, CSS, jQuery, .NET",
     },
-     {
+    {
       title: "SNAPGRAM",
-      description: "Snapgram is a full-stack social media clone where users can create an account, log in, create posts, share them publicly, comment, and like other posts. The project features a serverless backend powered by Appwrite, providing a streamlined and scalable architecture.",
+      description:
+        "Snapgram is a full-stack social media clone where users can create an account, log in, create posts, share them publicly, comment, and like other posts. The project features a serverless backend powered by Appwrite, providing a streamlined and scalable architecture.",
       image: "/images/snapgram.webp",
       link: "https://snapgram-jsm-o7n4.vercel.app/",
-      Technologies: "Nextjs, Tailwindcss, TanstackQuery, Typescript, Appwrite, Vite"
+      Technologies: "Nextjs, Tailwindcss, TanstackQuery, Typescript, Appwrite, Vite",
     },
-   
   ];
 
   return (
@@ -45,13 +47,8 @@ const Project = () => {
         </h1>
         <div className="space-y-8">
           {projects.map((project, index) => (
-            <div
-              key={index}
-              data-aos="fade-up"
-              className={`flex ${index % 2 === 0 ? 'justify-start' : 'justify-end'}`}
-            >
+            <div key={index} data-aos="fade-up" className={`flex ${index % 2 === 0 ? "justify-start" : "justify-end"}`}>
               <div className="w-full lg:w-2/3 xl:w-1/2 shadow-md border-2 border-[rgba(46,178,211,0.45)] rounded-3xl overflow-hidden transition-all duration-300 ease-in-out hover:shadow-[#2EB2D3] hover:bg-[#2eb2d315] hover:cursor-pointer  ">
-             
                 <div className="relative h-56 md:h-64">
                   <img
                     src={project.image}
@@ -63,13 +60,11 @@ const Project = () => {
                   <h2 className="tracking-wide text-2xl md:text-3xl text-[#EFF0F2] font-extrabold text-left">
                     {project.title}
                   </h2>
-                  <p className="text-[#EFF0F2] text-sm md:text-base text-left">
-                    {project.description}
-                  </p>
+                  <p className="text-[#EFF0F2] text-sm md:text-base text-left">{project.description}</p>
                   <div>
                     <p className="text-[#EFF0F2] text-sm md:text-base text-left">
-                        Technologies: {project.Technologies}
-                      </p>
+                      Technologies: {project.Technologies}
+                    </p>
                   </div>
                   <WorkButton
                     text="View Project"
