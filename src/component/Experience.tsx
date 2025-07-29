@@ -8,7 +8,7 @@ const Experience = () => {
           Professional <span className="text-[#2EB2D3]">Experience</span>
         </h1>
         <div className="flex flex-col lg:flex-row gap-10">
-          <div data-aos="fade-up" data-aos-delay="150" className="text-[#EFF0F2] lg:w-1/2">
+          <div className="text-[#EFF0F2] lg:w-1/2">
             <h2 className="text-[#EFF0F2] text-2xl md:text-3xl lg:text-4xl font-bold mb-6 text-center">CBS OffShore</h2>
             <div className="mb-8">
               <p className="text-base md:text-lg lg:text-xl pt-3 leading-relaxed tracking-wide">
