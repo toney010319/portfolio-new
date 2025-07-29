@@ -32,6 +32,10 @@ const techstack = [
   "RestApi",
   "MaterialUI",
   "SCSS",
+  "Wordpress",
+  "WooCommerce",
+  "Elementor",
+  "PHP",
 ];
 
 const frontEnd = [
@@ -63,7 +67,10 @@ const backEnd = [
   "RestApi",
   "Appwrite",
   "Supabase",
+  "PHP",
 ];
+
+const cmsPlatforms = ["Wordpress", "WooCommerce", "Elementor"];
 
 const toolsAndLibraries = ["Vite", "VScode", "Claude-AI", "Chat-GPT", "Git"];
 
@@ -80,6 +87,8 @@ const AboutMe = () => {
         return backEnd;
       case 3:
         return toolsAndLibraries;
+      case 4:
+        return cmsPlatforms;
       default:
         return techstack;
     }
@@ -130,7 +139,7 @@ const AboutMe = () => {
             <ShiftTabs
               activeTab={activeTab}
               setActiveTab={setActiveTab}
-              items={["All", "Frontend", "Backend", "Tools"]}
+              items={["All", "Frontend", "Backend", "Tools", "CMS"]}
               onTabClick={(tab: number | null) => setActiveTab(tab)}
             />
             <div className="flex flex-wrap justify-center items-center gap-2 p-4 md:p-6 lg:p-8">
