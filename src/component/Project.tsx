@@ -23,7 +23,7 @@ const Project = () => {
     {
       title: "ShopWise",
       description:
-        "An ECommerce website where users can Register and Login, add to favorites the items, filter and search, add items to cart, place multiple orders with subscription options, and complete payments via PayPal and debit cards.",
+        "An ECommerce website where users can Register and Login, add to favorites the items, filter and search, add items to cart, place multiple orders , and complete payments via PayPal and debit cards. or Cash on Delivery Method",
       image: "/images/wordpress.jpg",
       link: "https://shopewise.infinityfreeapp.com/",
       Technologies: ["Wordpress", "WooCommerce", "Elementor", "PHP", "CSS"],
