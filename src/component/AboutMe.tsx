@@ -72,7 +72,7 @@ const backEnd = [
 
 const cmsPlatforms = ["Wordpress", "WooCommerce", "Elementor"];
 
-const toolsAndLibraries = ["Vite", "VScode", "Claude-AI", "Chat-GPT", "Git"];
+const toolsAndLibraries = ["Vite", "VScode", "Claude-AI", "Chat-GPT", "Git", "Stripe", "Cursor"];
 
 const AboutMe = () => {
   const [activeTab, setActiveTab] = useState<number | null>(0);
