@@ -1,4 +1,4 @@
-import ImageCarousel from "./animata/carousel/image-carousel";
+ 
 
 const Experience = () => {
   return (
@@ -7,8 +7,27 @@ const Experience = () => {
         <h1 className="text-[#EFF0F2] text-3xl md:text-4xl lg:text-5xl font-bold mb-8 text-center">
           Professional <span className="text-[#2EB2D3]">Experience</span>
         </h1>
-        <div className="flex flex-col lg:flex-row gap-10">
-          <div className="text-[#EFF0F2] lg:w-1/2">
+        <div className="flex flex-col  gap-10">
+        <div className="text-[#EFF0F2] ">
+            <h2 className="text-[#EFF0F2] text-2xl md:text-3xl lg:text-4xl font-bold mb-6 text-center">CurbPage</h2>
+            <div className="mb-8">
+              <p className="text-base md:text-lg lg:text-xl pt-3 leading-relaxed tracking-wide">
+                August 2025 - Present
+              </p>
+              <p className="text-[#2EB2D3] font-bold text-base md:text-lg lg:text-xl leading-relaxed tracking-wide">
+                Remote
+              </p>
+              <p className="text-[#2EB2D3] font-bold text-base md:text-lg lg:text-xl leading-relaxed tracking-wide">
+               Full-Stack Developer
+              </p>
+              <p className="text-base md:text-lg lg:text-xl pt-3 leading-relaxed tracking-wide">
+              I worked as a Full-Stack Developer at CurbPage, building and maintaining a role-based real estate web application using Next.js, TypeScript, Supabase, Drizzle ORM, TanStack Query, Zod, and Tailwind CSS. The platform supported three user roles -Admin, Agent, Client, and Teammate - with customized authorization and protected routing through middleware-based access control. I implemented Supabase authentication with magic link login for secure and seamless user access, integrated Stripe for payment processing, and utilized TanStack Query for efficient data fetching and caching. I also implemented Zod validation for scalable form handling and worked with Drizzle schemas for type-safe database management. Additionally, I transformed Figma designs into responsive, cross-browser compatible, and mobile-friendly interfaces, ensuring a smooth user experience across devices.
+              </p>
+            </div>
+          </div>
+
+         
+          <div className="text-[#EFF0F2] ">
             <h2 className="text-[#EFF0F2] text-2xl md:text-3xl lg:text-4xl font-bold mb-6 text-center">CBS OffShore</h2>
             <div className="mb-8">
               <p className="text-base md:text-lg lg:text-xl pt-3 leading-relaxed tracking-wide">
@@ -30,29 +49,7 @@ const Experience = () => {
               </p>
             </div>
           </div>
-          <div className="text-center lg:w-1/2">
-            <h2 className="text-[#EFF0F2] text-2xl md:text-3xl lg:text-4xl font-bold mb-6 text-center">Certificates</h2>
-            <ImageCarousel
-              items={[
-                {
-                  id: 1,
-                  image: "/images/bootstrap.jpg",
-                  title: "",
-                },
-                {
-                  id: 2,
-                  image: "/images/avion-certificate.jpg",
-                  title: "",
-                },
-                {
-                  id: 3,
-                  image: "/images/jquery.jpg",
-                  title: "",
-                },
-              ]}
-            />
-            {/* <Expandable className="w-full min-w-72 storybook-fix"  autoPlay={true} /> */}
-          </div>
+        
         </div>
       </div>
     </div>
