@@ -13,8 +13,8 @@ const Navbar = () => {
   const tabs = [
     { label: "Profile", sectionId: "profile" },
     { label: "Services", sectionId: "services" },
-    { label: "Experience", sectionId: "experience" },
     { label: "About Us", sectionId: "about" },
+    { label: "Experience", sectionId: "experience" },
     { label: "Projects ", sectionId: "project" },
   ];
 
