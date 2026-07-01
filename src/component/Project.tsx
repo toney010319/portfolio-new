@@ -20,14 +20,27 @@ const Project = () => {
       link: "https://shop.esaverwatt.com",
       Technologies: ["HTML", "Bootstrap", "CSS", "Jquery", ".NET"],
     },
-    {
-      title: "ShopWise",
-      description:
-        "An ECommerce website where users can Register and Login, add to favorites the items, filter and search, add items to cart, place multiple orders , and complete payments via PayPal and debit cards. or Cash on Delivery Method",
-      image: "/images/wordpress.jpg",
-      link: "https://shopewise.infinityfreeapp.com/",
-      Technologies: ["Wordpress", "WooCommerce", "Elementor", "PHP", "CSS"],
-    },
+    // {
+    //   title: "Curbpage",
+    //   description: (
+    //     <>
+    //       CurbPage is an AI-powered real estate platform that helps agents, teams, and clients manage transactions,
+    //       automate workflows, track deadlines, and improve communication—all in one place. You can visit this marketing
+    //       website for more info{" "}
+    //       <a
+    //         href="https://www.curbpage.com/"
+    //         target="_blank"
+    //         rel="noopener noreferrer"
+    //         className="text-[#2EB2D3] underline hover:opacity-80"
+    //       >
+    //         CurbPage
+    //       </a>
+    //     </>
+    //   ),
+    //   image: "/images/wordpress.jpg",
+    //   link: "https://shopewise.infinityfreeapp.com/",
+    //   Technologies: ["Wordpress", "WooCommerce", "Elementor", "PHP", "CSS"],
+    // },
     {
       title: "SNAPGRAM",
       description:
