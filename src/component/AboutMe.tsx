@@ -54,6 +54,8 @@ const frontEnd = [
   "MaterialUI",
   "Figma",
   "TanstackQuery",
+  "RestApi",
+  "Zod",
 ];
 
 const backEnd = [
